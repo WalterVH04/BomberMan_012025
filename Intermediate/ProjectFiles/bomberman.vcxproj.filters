@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\bomberman.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\bomberman.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\bombermanEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\bomberman">
+      <UniqueIdentifier>{86A0CBC3-018B-3027-8540-9F6837A57B39}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\bomberman\bomberman.Build.cs">
+      <Filter>Source\bomberman</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\bomberman\bomberman.cpp">
+      <Filter>Source\bomberman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\bomberman\bomberman.h">
+      <Filter>Source\bomberman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\bomberman\bombermanCharacter.cpp">
+      <Filter>Source\bomberman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\bomberman\bombermanCharacter.h">
+      <Filter>Source\bomberman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\bomberman\bombermanGameMode.cpp">
+      <Filter>Source\bomberman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\bomberman\bombermanGameMode.h">
+      <Filter>Source\bomberman</Filter>
+    </ClCompile>
+    <Filter Include="Source\bomberman\Private">
+      <UniqueIdentifier>{819CE1AC-0CD0-3869-9904-C9499FE56B6A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\bomberman\Private\Bloque.cpp">
+      <Filter>Source\bomberman\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\bomberman\Private\Muro.cpp">
+      <Filter>Source\bomberman\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\bomberman\Public">
+      <UniqueIdentifier>{BE1DBCA5-218D-300E-8FEF-B9E537393A7A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\bomberman\Public\Bloque.h">
+      <Filter>Source\bomberman\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\bomberman\Public\Muro.h">
+      <Filter>Source\bomberman\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

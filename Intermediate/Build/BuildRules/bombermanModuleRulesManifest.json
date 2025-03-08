@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Walter Vera USFX\\bomberman\\Source\\bomberman\\bomberman.Build.cs",
+		"C:\\Walter Vera USFX\\bomberman\\Source\\bomberman.Target.cs",
+		"C:\\Walter Vera USFX\\bomberman\\Source\\bombermanEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.3"
+}
