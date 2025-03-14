@@ -52,7 +52,7 @@ void ABloqueConcreto::Tick(float DeltaTime)
 		float RunningTime = GetGameTimeSinceCreation();
 
 		// Aleatoriedad en el desplazamiento en el eje Y
-		float DeltaY = FMath::FRandRange(-1.0f, 1.0f) * FloatSpeed * DeltaTime;
+		float DeltaY = FMath::FRandRange(-1.0f, 4.0f) * FloatSpeed * DeltaTime;
 		NewLocation.Y += DeltaY;
 
 		// Aleatoriedad en la rotación

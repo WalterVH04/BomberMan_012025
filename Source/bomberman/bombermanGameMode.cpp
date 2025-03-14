@@ -110,7 +110,7 @@ void AbombermanGameMode::BeginPlay()
 
 	for (int i = 0; i < 2; i++)
 	{
-		ABloqueConcreto* bloqueconcreto = GetWorld()->SpawnActor<ABloqueConcreto>(ABloqueConcreto::StaticClass(), FVector(120.0f + i * 130, 757.0f, 45.0f), FRotator(0.0f, 0.0f, 0.0f));
+		ABloqueConcreto* bloqueconcreto = GetWorld()->SpawnActor<ABloqueConcreto>(ABloqueConcreto::StaticClass(), FVector(620.0f + i * 100, 57.0f, 45.0f), FRotator(0.0f, 0.0f, 0.0f));
 
 
 		if (bloqueconcreto->BCPuedeMoverse)
