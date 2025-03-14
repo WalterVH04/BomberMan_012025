@@ -11,6 +11,8 @@
     <None Include="..\..\Source\bombermanEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
@@ -60,7 +62,22 @@
     <ClCompile Include="..\..\Source\bomberman\Private\Bloque.cpp">
       <Filter>Source\bomberman\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\bomberman\Private\BloqueAcero.cpp">
+      <Filter>Source\bomberman\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\bomberman\Private\BloqueConcreto.cpp">
+      <Filter>Source\bomberman\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\bomberman\Private\BloqueLadrillo.cpp">
+      <Filter>Source\bomberman\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\bomberman\Private\BloqueMadera.cpp">
+      <Filter>Source\bomberman\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\bomberman\Private\Muro.cpp">
+      <Filter>Source\bomberman\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\bomberman\Private\Rectangulo.cpp">
       <Filter>Source\bomberman\Private</Filter>
     </ClCompile>
     <Filter Include="Source\bomberman\Public">
@@ -69,7 +86,22 @@
     <ClCompile Include="..\..\Source\bomberman\Public\Bloque.h">
       <Filter>Source\bomberman\Public</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\bomberman\Public\BloqueAcero.h">
+      <Filter>Source\bomberman\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\bomberman\Public\BloqueConcreto.h">
+      <Filter>Source\bomberman\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\bomberman\Public\BloqueLadrillo.h">
+      <Filter>Source\bomberman\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\bomberman\Public\BloqueMadera.h">
+      <Filter>Source\bomberman\Public</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\bomberman\Public\Muro.h">
+      <Filter>Source\bomberman\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\bomberman\Public\Rectangulo.h">
       <Filter>Source\bomberman\Public</Filter>
     </ClCompile>
   </ItemGroup>

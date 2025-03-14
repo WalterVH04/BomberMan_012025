@@ -5,6 +5,8 @@
 #include "UObject/ConstructorHelpers.h"
 #include "Bloque.h"
 #include "Muro.h"
+#include "Rectangulo.h"
+#include "BloqueConcreto.h"
 
 AbombermanGameMode::AbombermanGameMode()
 {
@@ -47,6 +49,7 @@ void AbombermanGameMode::BeginPlay()
 
 	}
 
+	
 
 
 
@@ -73,6 +76,26 @@ void AbombermanGameMode::BeginPlay()
 
 
 	}
+
+
+
+
+	GEngine->AddOnScreenDebugMessage(-1, -1, FColor::Red, TEXT("Rectangulo Spawning"));
+
+	//FTransform SpawnLocation;
+	//GetWorld()->SpawnActor<AMyFirstRectangulo>(AMyFirstRectangulo::StaticClass(), &SpawnLocation);
+
+	for (int i = 0; i < 1; i++) //cantidad de rectangulos
+	{
+		ARectangulo* Rectangulo = GetWorld()->SpawnActor<ARectangulo>(ARectangulo::StaticClass(), FVector(1228.0f , 911.0f, 46.0f), FRotator(0.0f, 0.0f, 0.0f));
+
+		if (Rectangulo)
+		{
+			Rectangulo->SetLifeSpan(10.0f); // se elimina rectangulo despues de 10 segundos
+		}
+
+	}
+
 }
 
 
