@@ -7,6 +7,9 @@
 #include "Muro.h"
 #include "Rectangulo.h"
 #include "BloqueConcreto.h"
+#include "BloqueAcero.h"
+#include "BloqueLadrillo.h"
+#include "BloqueMadera.h"
 
 AbombermanGameMode::AbombermanGameMode()
 {
@@ -96,7 +99,41 @@ void AbombermanGameMode::BeginPlay()
 
 	}
 
+
+
+
+
+
+	GEngine->AddOnScreenDebugMessage(-1, -1, FColor::Red, TEXT("BloqueConcreto Spawning"));
+
+	int numeroBloqueConcretoConMovimiento = 0;
+
+	for (int i = 0; i < 2; i++)
+	{
+		ABloqueConcreto* bloqueconcreto = GetWorld()->SpawnActor<ABloqueConcreto>(ABloqueConcreto::StaticClass(), FVector(120.0f + i * 130, 757.0f, 45.0f), FRotator(0.0f, 0.0f, 0.0f));
+
+
+		if (bloqueconcreto->BCPuedeMoverse)
+		{
+			numeroBloqueConcretoConMovimiento++;
+		}
+
+		if (numeroBloqueConcretoConMovimiento >= 2)
+		{
+			bloqueconcreto->BCPuedeMoverse = false;
+		}
+
+
+
+	}
+
+
+
 }
+
+
+
+
 
 
 

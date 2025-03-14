@@ -58,6 +58,7 @@ void ABloque::Tick(float DeltaTime)
 		float DeltaRotation = FMath::FRandRange(-1.0f, 1.0f) * RotationSpeed;
 		NewRotation.Yaw += DeltaRotation;
 
+
 		SetActorLocationAndRotation(NewLocation, NewRotation);
 	}
 
